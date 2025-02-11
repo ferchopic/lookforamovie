@@ -12,7 +12,7 @@ const Navbar = () => {
             className="absolute left-4 flex items-center space-x-3 text-white hover:text-gray-300"
           >
             <Home size={20} />
-            <span>Home</span>
+            <span className="hidden md:inline">Home</span>
           </a>
 
           <div className="flex-1 flex justify-center items-center">
